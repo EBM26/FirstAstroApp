@@ -5,18 +5,20 @@ class SignsController < ApplicationController
   end
 
   def show
-    @sign = get_api_data(params[:id])
+
+ #  assigning sign variable to the method of grabbing the API info from the Astrology API app
+
+    @sign = get_api_data
   end
 
-  def get_api
-    url = "http://www.astrology-api.com/api/signs"
-    @response = HTTParty.get(url)
+  private # conventionally good practice to have special controller method just for the specific controller 
 
-  end
+  def get_api_data 
 
-  private
-  def get_api_data
-     url = "http://www.astrology-api.com/api/signs/#{sign}"
+    # {params[:id]} is the custom-made url in the Astrology API that is the sign's name in lowercase
+    # the show method simply grabs that id and parses it into the url to grab the sign's individual info
+    
+     url = "http://www.astrology-api.com/api/signs/#{params[:id]}"
      @response = HTTParty.get(url)
 
     
