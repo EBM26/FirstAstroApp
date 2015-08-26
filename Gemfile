@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'httparty', '~> 0.13.5'
-# Pure CSS styling framework
-gem 'purecss-rails'
-
+# Foundation CSS styling framework
+gem 'foundation-rails'
+# MongoDB gem
 gem 'mongoid', '~> 4.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
