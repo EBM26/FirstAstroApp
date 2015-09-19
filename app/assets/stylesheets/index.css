@@ -1,3 +1,19 @@
 .welcome {
   margin: 2%;
 }
+
+.sign-image {
+  height: 330px;
+}
+
+table {
+  margin-left: 13%;
+}
+
+body {
+   background: image-url('Astro-map.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

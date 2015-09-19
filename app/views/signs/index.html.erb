@@ -1,54 +1,76 @@
+<h1 class="text-center welcome"><u>Welcome to Basic Info Astrology!</u></h1>
 
-<div class="row">
+<table>
 
-  <h1 class="text-center welcome"><u>Welcome to Basic Info Astrology!</u></h1>
+  <thead>
+    <th></th>
+    <th><h2 class="text-center"><u>Cardinal</u></h2></th>
+    <th><h2 class="text-center"><u>Fixed</u></h2></th>
+    <th><h2 class="text-center"><u>Mutable</u></h2></th>
+  </thead>
 
-  <div class="small-4 columns"><h2 class="text-center"><u>Cardinal</u></h2><%= image_tag("Aries.jpg", :alt => "rss feed") %>
-  <h3 class="text-center">Aries</h3>
-  </div>
-  <div class="small-4 columns"><h2 class="text-center"><u>Fixed</u></h2><%= image_tag("Leo.jpg", :alt => "rss feed") %>
-  <h3 class="text-center">Leo</h3>
-  </div>
-  <div class="small-4 columns"><h2 class="text-center"><u>Mutable</u></h2><%= image_tag("Saggitarius.jpg", :alt => "rss feed") %>
-<h3 class="text-center">Saggitarius</h3>
-  </div>
-</div><br>
+  <tr>
+    <td><h2 class="text-center">Fire</h2></td>
+    <td> 
+    <%= image_tag("Aries.jpg", :alt => "rss feed", class: "sign-image") %>
+      <h3 class="text-center">Aries</h3>
+    </td>
+    <td>
+    <%= image_tag("Leo.jpg", :alt => "rss feed", class: "sign-image") %>
+      <h3 class="text-center">Leo</h3>
+    </td>
+    <td>
+    <%= image_tag("Saggitarius.jpg", :alt => "rss feed", class: "sign-image") %>
+      <h3 class="text-center">Saggitarius</h3>
+    </td>
+  </tr>
 
-<div class="row">
+  <tr>
+    <td><h2 class="text-center">Earth</h2></td>
+    <td>
+      <%= image_tag("Capricorn.jpg", :alt => "rss feed", class: "sign-image") %>
+      <h3 class="text-center">Capricorn</h3>
+    </td>
+    <td>
+    <%= image_tag("Taurus.jpg", :alt => "rss feed", class: "sign-image") %>
+      <h3 class="text-center">Taurus</h3>
+    </td>
+    <td>
+    <%= image_tag("Virgo.jpg", :alt => "rss feed", class: "sign-image") %>
+      <h3 class="text-center">Virgo</h3>
+    </td>
+  </tr>
 
-  <div class="small-4 columns"><%= image_tag("Capricorn.jpg", :alt => "rss feed") %>
-  <h3 class="text-center">Capricorn</h3>
-  </div>
-  <div class="small-4 columns"><%= image_tag("Taurus.jpg", :alt => "rss feed") %>
-<h3 class="text-center">Taurus</h3>
-  </div>
-  <div class="small-4 columns"><%= image_tag("Virgo.jpg", :alt => "rss feed") %>
-<h3 class="text-center">Virgo</h3>
-  </div>
-</div><br>
+  <tr>
+    <td><h2 class="text-center">Air</h2></td>
+    <td>
+    <%= image_tag("Libra.jpg", :alt => "rss feed", class: "sign-image") %>
+      <h3 class="text-center">Libra</h3>
+    </td>
+    <td> 
+    <%= image_tag("Aquarius.jpg", :alt => "rss feed", class: "sign-image") %>
+      <h3 class="text-center">Aquarius</h3>
+    </td>
+    <td>
+    <%= image_tag("Gemini.jpg", :alt => "rss feed", class: "sign-image") %>
+      <h3 class="text-center">Gemini</h3>
+    </td>
+  </tr> 
 
-<div class="row">
+  <tr>
+    <td><h2 class="text-center">Water</h2></td>
+    <td>
+    <%= image_tag("Cancer.jpg", :alt => "rss feed", class: "sign-image") %>
+      <h3 class="text-center">Cancer</h3>
+    </td>
+    <td>
+      <%= image_tag("Scorpio.jpg", :alt => "rss feed", class: "sign-image") %>
+      <h3 class="text-center">Scorpio</h3>
+    </td>
+    <td>
+      <%= image_tag("Pisces.jpg", :alt => "rss feed", class: "sign-image") %>
+      <h3 class="text-center">Pisces</h3>
+    </td>
 
-  <div class="small-4 columns"><%= image_tag("Libra.jpg", :alt => "rss feed") %>
-<h3 class="text-center">Libra</h3>
-  </div>
-  <div class="small-4 columns"><%= image_tag("Aquarius.jpg", :alt => "rss feed") %>
-  <h3 class="text-center">Aquarius</h3>
-  </div>
-  <div class="small-4 columns"><%= image_tag("Gemini.jpg", :alt => "rss feed") %>
-<h3 class="text-center">Gemini</h3>
-  </div>
-</div><br>
-
-<div class="row">
-
-  <div class="small-4 columns"><%= image_tag("Cancer.jpg", :alt => "rss feed") %>
-<h3 class="text-center">Cancer</h3>
-  </div>
-  <div class="small-4 columns"><%= image_tag("Scorpio.jpg", :alt => "rss feed") %>
-<h3 class="text-center">Scorpio</h3>
-  </div>
-  <div class="small-4 columns"><%= image_tag("Pisces.jpg", :alt => "rss feed") %>
-<h3 class="text-center">Pisces</h3>
-  </div>
-</div><br><br>
+  </tr>
+</table><br><br>
