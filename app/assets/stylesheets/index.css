@@ -6,7 +6,7 @@
   height: 330px;
 }
 
-table {
+#index-table {
   margin-left: 13%;
 }
 
@@ -19,4 +19,12 @@ table {
     -o-background-size: cover;
     background-size: cover;
   
+  }
+
+  .show-th {
+    width: 80px;
+  }
+
+  #show-table {
+    margin: 5%;
   }
