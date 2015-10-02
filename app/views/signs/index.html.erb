@@ -1,10 +1,10 @@
 <body class="body">
 
-<h1 class="text-center welcome"><u>Welcome to Basic Info Astrology: </u></h1><h3 class="text-center">The App that allows you to easily see all of a Zodiac Sign's basic information</h3>
+<h1 class="text-center welcome"><u>Welcome to Basic Astrology Info: </u></h1><h3 class="text-center welcome">The App that allows you to easily see all of a Zodiac Sign's basic information</h3>
 
 <table id="index-table">
 
-  <thead>
+  <thead id="thead-row">
     <th></th>
     <th><h2 class="text-center"><u>Cardinal</u></h2></th>
     <th><h2 class="text-center"><u>Fixed</u></h2></th>
@@ -33,7 +33,7 @@
     </td>
   </tr>
 
-  <tr>
+  <tr id="earth-row">
     <td><h2 class="text-center">Earth</h2></td>
     <td>
     <%= link_to sign_path("capricorn")  do %>
@@ -77,7 +77,7 @@
     </td>
   </tr> 
 
-  <tr>
+  <tr id="water-row">
     <td><h2 class="text-center">Water</h2></td>
     <td>
     <%= link_to sign_path("cancer")  do %>

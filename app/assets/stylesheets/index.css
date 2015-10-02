@@ -1,5 +1,5 @@
 .welcome {
-
+  font-family: 'Architects Daughter', cursive;
 }
 
 .sign-image {
@@ -7,12 +7,15 @@
 }
 
 .body {
-  background-color: #E3E4FA;
+  background-color: #C2DFFF;
+
 }
 
 #index-table {
   margin-left: 13%;
-  background-color: rgba(1, 206, 255, .3);
+  background-color: #FFD801;
+  padding-right: 2%;
+
 }
 
   .show-th {
@@ -49,7 +52,7 @@
   margin-left: 5px;
 }
 
-
-
-
+#earth-row, #water-row, #thead-row {
+  background-color: #FFD801;
+}
 
