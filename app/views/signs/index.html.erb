@@ -1,4 +1,6 @@
-<h1 class="text-center welcome"><u>Welcome to Basic Info Astrology!</u></h1>
+<body class="body">
+
+<h1 class="text-center welcome"><u>Welcome to Basic Info Astrology: </u></h1><h3 class="text-center">The App that allows you to easily see all of a Zodiac Sign's basic information</h3>
 
 <table id="index-table">
 
@@ -13,20 +15,20 @@
     <td><h2 class="text-center">Fire</h2></td>
     <td>
     <%= link_to sign_path("aries")  do %>
-    <%= image_tag("Aries.jpg", :alt => "rss feed", class: "sign-image") %>
-      <h3 class="text-center">Aries</h3>
+    <%= image_tag("Aries.jpg", :alt => "rss feed", class: "sign-image hvr-grow") %>
+      <h3 class="text-center">Aries <%= image_tag("aries-symbol.png", :alt => "rss feed", class: "symbol") %></h3>
       <% end %>
     </td>
     <td>
     <%= link_to sign_path("leo")  do %>
-    <%= image_tag("Leo.jpg", :alt => "rss feed", class: "sign-image") %>
-      <h3 class="text-center">Leo</h3>
+    <%= image_tag("Leo.jpg", :alt => "rss feed", class: "sign-image hvr-grow") %>
+      <h3 class="text-center">Leo <%= image_tag("leo-symbol.png", :alt => "rss feed", class: "symbol") %></h3>
       <% end %>
     </td>
     <td>
     <%= link_to sign_path("sagittarius")  do %>
-    <%= image_tag("Sagittarius.jpg", :alt => "rss feed", class: "sign-image") %>
-      <h3 class="text-center">Saggitarius</h3>
+    <%= image_tag("Sagittarius.jpg", :alt => "rss feed", class: "sign-image hvr-grow") %>
+      <h3 class="text-center">Saggitarius <%= image_tag("sagg-symbol.png", :alt => "rss feed", class: "symbol") %></h3>
       <% end %>
     </td>
   </tr>
@@ -35,20 +37,20 @@
     <td><h2 class="text-center">Earth</h2></td>
     <td>
     <%= link_to sign_path("capricorn")  do %>
-      <%= image_tag("Capricorn.jpg", :alt => "rss feed", class: "sign-image") %>
-      <h3 class="text-center">Capricorn</h3>
+      <%= image_tag("Capricorn.jpg", :alt => "rss feed", class: "sign-image hvr-grow") %>
+      <h3 class="text-center">Capricorn <%= image_tag("capricorn-symbol.png", :alt => "rss feed", class: "symbol") %></h3>
       <% end %>
     </td>
     <td>
     <%= link_to sign_path("taurus")  do %>
-    <%= image_tag("Taurus.jpg", :alt => "rss feed", class: "sign-image") %>
-      <h3 class="text-center">Taurus</h3>
+    <%= image_tag("Taurus.jpg", :alt => "rss feed", class: "sign-image hvr-grow") %>
+      <h3 class="text-center">Taurus <%= image_tag("taurus-symbol.png", :alt => "rss feed", class: "symbol") %></h3>
       <% end %>
     </td>
     <td>
     <%= link_to sign_path("virgo")  do %>
-    <%= image_tag("Virgo.jpg", :alt => "rss feed", class: "sign-image") %>
-      <h3 class="text-center">Virgo</h3>
+    <%= image_tag("Virgo.jpg", :alt => "rss feed", class: "sign-image hvr-grow") %>
+      <h3 class="text-center">Virgo <%= image_tag("virgo-symbol.png", :alt => "rss feed", class: "symbol") %></h3>
       <% end %>
     </td>
   </tr>
@@ -57,20 +59,20 @@
     <td><h2 class="text-center">Air</h2></td>
     <td>
     <%= link_to sign_path("libra")  do %>
-    <%= image_tag("Libra.jpg", :alt => "rss feed", class: "sign-image") %>
-      <h3 class="text-center">Libra</h3>
+    <%= image_tag("Libra.jpg", :alt => "rss feed", class: "sign-image hvr-grow") %>
+      <h3 class="text-center">Libra <%= image_tag("libra-symbol.png", :alt => "rss feed", class: "symbol") %></h3>
       <% end %>
     </td>
     <td> 
     <%= link_to sign_path("aquarius")  do %>
-    <%= image_tag("Aquarius.jpg", :alt => "rss feed", class: "sign-image") %>
-      <h3 class="text-center">Aquarius</h3>
+    <%= image_tag("Aquarius.jpg", :alt => "rss feed", class: "sign-image hvr-grow") %>
+      <h3 class="text-center">Aquarius <%= image_tag("aquarius-symbol.png", :alt => "rss feed", class: "symbol") %></h3>
       <% end %>
     </td>
     <td>
     <%= link_to sign_path("gemini")  do %>
-    <%= image_tag("Gemini.jpg", :alt => "rss feed", class: "sign-image") %>
-      <h3 class="text-center">Gemini</h3>
+    <%= image_tag("Gemini.jpg", :alt => "rss feed", class: "sign-image hvr-grow") %>
+      <h3 class="text-center">Gemini <%= image_tag("gemini-symbol.png", :alt => "rss feed", class: "symbol") %></h3>
       <% end %>
     </td>
   </tr> 
@@ -79,22 +81,23 @@
     <td><h2 class="text-center">Water</h2></td>
     <td>
     <%= link_to sign_path("cancer")  do %>
-    <%= image_tag("Cancer.jpg", :alt => "rss feed", class: "sign-image") %>
-      <h3 class="text-center">Cancer</h3>
+    <%= image_tag("Cancer.jpg", :alt => "rss feed", class: "sign-image hvr-grow") %>
+      <h3 class="text-center">Cancer <%= image_tag("cancer-symbol.png", :alt => "rss feed", class: "symbol") %></h3>
       <% end %>
     </td>
     <td>
     <%= link_to sign_path("scorpio")  do %>
-      <%= image_tag("Scorpio.jpg", :alt => "rss feed", class: "sign-image") %>
-      <h3 class="text-center">Scorpio</h3>
+      <%= image_tag("Scorpio.jpg", :alt => "rss feed", class: "sign-image hvr-grow") %>
+      <h3 class="text-center">Scorpio <%= image_tag("scorpio-symbol.png", :alt => "rss feed", class: "symbol") %></h3>
       <% end %>
     </td>
     <td>
     <%= link_to sign_path("pisces")  do %>
-      <%= image_tag("Pisces.jpg", :alt => "rss feed", class: "sign-image") %>
-      <h3 class="text-center">Pisces</h3>
+      <%= image_tag("Pisces.jpg", :alt => "rss feed", class: "sign-image hvr-grow") %>
+      <h3 class="text-center">Pisces <%= image_tag("pisces-symbol.png", :alt => "rss feed", class: "symbol") %></h3>
       <% end %>
     </td>
 
   </tr>
 </table><br><br>
+</body>
