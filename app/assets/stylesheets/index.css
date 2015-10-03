@@ -4,6 +4,8 @@
 
 .sign-image {
   height: 330px;
+  border: 8px double #151B8D;
+  border-radius: 2%;
 }
 
 .body {
@@ -13,7 +15,7 @@
 
 #index-table {
   margin-left: 13%;
-  background-color: #FFD801;
+  background-color: #FFEBCD;
   padding-right: 2%;
 
 }
@@ -53,6 +55,6 @@
 }
 
 #earth-row, #water-row, #thead-row {
-  background-color: #FFD801;
+  background-color: #F0FFFF;
 }
 
