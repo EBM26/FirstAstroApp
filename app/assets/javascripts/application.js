@@ -14,7 +14,21 @@
 //= require jquery
 //= require jquery_ujs
 //= require foundation
-//= require turbolinks
 //= require_tree .
 
+
+// foundation code
 $(function(){ $(document).foundation(); });
+
+
+// change color hover code
+
+$(document).ready(function() {
+
+$("#show-row-1, #show-row-2, #show-row-3, #show-row-4, #show-row-5, #show-row-6, #show-row-7, #show-row-8, #show-row-9").hover(function(){
+    $(this).css("background-color", "#FFF380");
+    }, function(){
+    $(this).css("background-color", "");
+});
+
+});

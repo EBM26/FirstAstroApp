@@ -1,54 +1,57 @@
-<h1 class="text-center"><u><%= @sign['name'] %></u></h1><h4 class="text-center"><u>(<%= @sign['date'] %>)</u></h4>
+<body id="show-body">
 
-<table id="show-table">
-  <tr>
-  <th class="show-th"><h4><u>Basic Info</u></h4></th>
-  <td id="name-show"><h3>The <%= @sign['name'] %> sign is the <%= @sign['stage'] %> stage of the <%= @sign['element'] %> element and is ruled by the <%= @sign['planet'] %> planet. In the Astrological Karmic Cycle it the <%= @sign['karmic_stage'] %> stage.</h3></td>
-  </tr>
+  <h1 class="text-center"><u><%= @sign['name'] %></u></h1><h4 class="text-center"><u>(<%= @sign['date'] %>)</u></h4>
 
-  <tr>
-  <th class="show-th"><h4><u>Appearance</u></h4></th>
-  <td><h3><%= @sign['appearance'] %></h3></td>
-  </tr>
+  <table id="show-table">
+    <tr id="show-row-1">
+      <th class="show-th"><h4><u>Basic Info</u></h4></th>
+      <td id="name-show"><h3>The <%= @sign['name'] %> sign is the <%= @sign['stage'] %> stage of the <%= @sign['element'] %> element and is ruled by the <%= @sign['planet'] %> planet. In the Astrological Karmic Cycle it the <%= @sign['karmic_stage'] %> stage.</h3></td>
+    </tr>
 
-<tr>
-  <th class="show-th"><h4><u>Strenghts</u></h4></th>
-  <td><h3><%= @sign['strengths'] %></h3></td>
-  </tr>
+    <tr id="show-row-2">
+      <th class="show-th"><h4><u>Appearance</u></h4></th>
+      <td><h3><%= @sign['appearance'] %></h3></td>
+    </tr>
 
-<tr>
-  <th class="show-th"><h4><u>Weaknesses</u></h4></th>
-  <td><h3><%= @sign['weaknesses'] %></h3></td>
-  </tr>
+    <tr id="show-row-3">
+      <th class="show-th"><h4><u>Strenghts</u></h4></th>
+      <td><h3><%= @sign['strengths'] %></h3></td>
+    </tr>
 
-  <tr>
-  <th class="show-th"><h4><u>Hobbies</u></h4></th>
-  <td><h3><%= @sign['hobbies'] %></h3></td>
-  </tr>
+    <tr id="show-row-4">
+      <th class="show-th"><h4><u>Weaknesses</u></h4></th>
+      <td><h3><%= @sign['weaknesses'] %></h3></td>
+    </tr>
 
-  <tr>
-  <th class="show-th"><h4><u>Dislikes</u></h4></th>
-  <td><h3><%= @sign['dislikes'] %></h3></td>
-  </tr>
+    <tr id="show-row-5">
+      <th class="show-th"><h4><u>Hobbies</u></h4></th>
+      <td><h3><%= @sign['hobbies'] %></h3></td>
+    </tr>
 
-  <tr>
-  <th class="show-th"><h4><u>Key Words</u></h4></th>
-  <td><h3><%= @sign['key_words'] %></h3></td>
-  </tr>
+    <tr id="show-row-6">
+      <th class="show-th"><h4><u>Dislikes</u></h4></th>
+      <td><h3><%= @sign['dislikes'] %></h3></td>
+    </tr>
 
-   <tr>
-  <th class="show-th"><h4><u>Romance</u></h4></th>
-  <td><h3><%= @sign['romance'] %></h3></td>
-  </tr>
+    <tr id="show-row-7">
+      <th class="show-th"><h4><u>Key Words</u></h4></th>
+      <td><h3><%= @sign['key_words'] %></h3></td>
+    </tr>
 
-  <tr>
-  <th class="show-th"><h4><u>Tidbits</u></h4></th>
-  <td><h3>This sign's color is <%= @sign['color'] %>, its lucky stone is <%= @sign['stone'] %>, its lucky metal is <%= @sign['metal'] %>, and its related body part is the <%= @sign['related_body_part'] %></h3></td>
-  </tr>
+    <tr id="show-row-8">
+      <th class="show-th"><h4><u>Romance</u></h4></th>
+      <td><h3><%= @sign['romance'] %></h3></td>
+    </tr>
 
-  
-</table>
+    <tr id="show-row-9">
+      <th class="show-th"><h4><u>Tidbits</u></h4></th>
+      <td><h3>This sign's color is <%= @sign['color'] %>, its lucky stone is <%= @sign['stone'] %>, its lucky metal is <%= @sign['metal'] %>, and its related body part is the <%= @sign['related_body_part'] %></h3></td>
+    </tr>
 
 
-<h3 class="text-center"><%= link_to "Back to home page", signs_path %></h3><br><br>
+  </table>
 
+
+  <h3 class="text-center"><%= link_to "Back to home page", signs_path, id: "home-link" %></h3><br><br>
+
+</body>

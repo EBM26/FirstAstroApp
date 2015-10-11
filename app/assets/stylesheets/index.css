@@ -15,7 +15,7 @@
 
 #index-table {
   margin-left: 13%;
-  background-color: #FFF380;
+  background-color: #C3FDB8;
   padding-right: 2%;
 
 }
@@ -56,5 +56,13 @@
 
 #earth-row, #water-row, #thead-row {
   background-color: #F0FFFF;
+}
+
+#show-body {
+  background-color: #F70D1A;
+}
+
+#show-body > h1, #show-body > h4, #home-link {
+  color: #FFF380;
 }
 
