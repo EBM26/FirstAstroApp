@@ -26,7 +26,7 @@ $(function(){ $(document).foundation(); });
 $(document).ready(function() {
 
 $("#show-row-1, #show-row-2, #show-row-3, #show-row-4, #show-row-5, #show-row-6, #show-row-7, #show-row-8, #show-row-9").hover(function(){
-    $(this).css("background-color", "#FFF380");
+    $(this).css("background-color", "yellow");
     }, function(){
     $(this).css("background-color", "");
 });
