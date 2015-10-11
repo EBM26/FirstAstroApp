@@ -66,3 +66,14 @@
   color: yellow;
 }
 
+.my-name {
+  margin-left: 13%;
+  font-size: 20px;
+  color: #F70D1A;
+}
+
+.show-name {
+  margin-left: 5%;
+  font-size: 20px;
+  color: yellow;
+}
